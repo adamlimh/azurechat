@@ -10,10 +10,4 @@ Below are the features for the Azure Chat Solution accelerator
 
 ## 🎙️ Speech
 
-Ability to use Azure Speech in conversations. This feature is not enabled by default. To enable this feature, you must set the environment variable `PUBLIC_SPEECH_ENABLED=true` along with the Azure Speech subscription key and region.
-
-```
-PUBLIC_SPEECH_ENABLED=true
-AZURE_SPEECH_REGION="REGION"
-AZURE_SPEECH_KEY="1234...."
-```
+- You can now transcribe audible speech into readable, searchable text. Simply click on the button to use use real-time speech translations in conversation.
