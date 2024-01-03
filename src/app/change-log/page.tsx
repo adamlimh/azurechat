@@ -24,13 +24,10 @@ export default async function Home() {
 
 const loadContent = async () => {
   if (process.env.NODE_ENV === "production") {
-    const response = await fetch(
-      "https://raw.githubusercontent.com/microsoft/azurechat/main/src/app/change-log/update.md",
-      {
-        cache: "no-cache",
-      }
+    return await fs.readFile(
+      process.cwd() + "/app/change-log/update.md",
+      "utf8"
     );
-    return await response.text();
   } else {
     return await fs.readFile(
       process.cwd() + "/app/change-log/update.md",
