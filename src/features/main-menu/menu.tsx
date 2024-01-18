@@ -65,7 +65,7 @@ export const MainMenu = () => {
           className="rounded-full w-[40px] h-[40px] p-2 text-primary"
           variant={"outline"}
         >
-          <Link href="/cheatsheet" title="Cheat Sheet" className="relative">
+          <Link href="/share" title="Share" className="relative">
             <Triangle />
             <UpdateIndicator />
           </Link>
