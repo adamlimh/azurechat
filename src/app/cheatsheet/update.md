@@ -2,7 +2,7 @@
 
 This cheat sheet lists out prompts and tips from all over the world on how to use ChatGPT effectively
 
-## General
+## 💬 General
 
 ### Name your business or idea
 
@@ -28,7 +28,7 @@ This cheat sheet lists out prompts and tips from all over the world on how to us
 
 - Can you randomly pick 5 email addresses from a list of 1000 for a giveaway contest?
 
-## Email
+## 📧 Email
 
 ### Creating email campaigns
 
@@ -46,7 +46,7 @@ Hello, do you have any actual tips or tricks for ChatGPT please?
 - Email him, "That's a good suggestion, it's coming soon": 
 Hello, do you have any actual tips or tricks for ChatGPT please?
 
-## Analyzing Data
+## 📈 Analyzing Data
 
 ### Pull out numbers from large chunks of text
 
@@ -60,7 +60,7 @@ Hello, do you have any actual tips or tricks for ChatGPT please?
 
 - Please filter this list based on certain criteria: [your list]
 
-## Writing
+## 🖊️ Writing
 
 ### Create titles for any of your creative writing projects
 
@@ -90,7 +90,7 @@ Hello, do you have any actual tips or tricks for ChatGPT please?
 
 - Detect plagiarism in this paper? [your paper]
 
-## Spreadsheets
+## 🔢 Spreadsheets
 
 ### Help create a spreadsheet formula
 
@@ -108,7 +108,7 @@ Hello, do you have any actual tips or tricks for ChatGPT please?
 
 - Can you give me some tips on how to improve the efficiency of my spreadsheet?
 
-## Reading
+## 📕 Reading
 
 ### Summarize long selections of text
 
