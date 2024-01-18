@@ -2,6 +2,8 @@
 
 This cheat sheet lists out prompts and tips from all over the world on how to use ChatGPT effectively
 
+[💡 I Got an IDEA](http://itnews.ura.org.hk/?page_id=502)
+
 ## 💬 General
 
 ### Name your business or idea
@@ -117,3 +119,5 @@ Hello, do you have any actual tips or tricks for ChatGPT please?
 ### Translate foreign languages
 
 - Can you translate this sentence into Spanish? [your text]
+
+  
