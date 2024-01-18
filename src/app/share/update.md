@@ -1,8 +1,11 @@
 # ChatGPT Cheat Sheet
 
+![](/images/prompt_cheat.png)
+
 This cheat sheet lists out prompts and tips from all over the world on how to use ChatGPT effectively
 
 [💡 Share your IDEA](http://itnews.ura.org.hk/?page_id=502)
+
 
 ## 💬 General
 
