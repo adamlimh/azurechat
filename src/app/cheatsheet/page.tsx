@@ -25,7 +25,7 @@ export default async function Home() {
 const loadContent = async () => {
   if (process.env.NODE_ENV === "production") {
     const response = await fetch(
-      "https://raw.githubusercontent.com/adamlimh/azurechat/main/src/app/change-log/update.md",
+      "https://raw.githubusercontent.com/adamlimh/azurechat/main/src/app/cheatsheet/update.md",
       {
         cache: "no-cache",
       }
