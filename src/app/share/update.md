@@ -96,7 +96,7 @@ Hello, do you have any actual tips or tricks for ChatGPT please?
 
 ### Help create a spreadsheet formula
 
-- Please extract all the numbers from this text: [your text]
+- Can you help me create a formula to calculate the sum of cells A1 to A10?
 
 ### Explain a formula to you
 
