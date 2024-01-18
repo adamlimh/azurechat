@@ -1,6 +1,6 @@
 # ChatGPT Cheat Sheet
 
-![](/images/prompt_cheat.png)
+![](https://github.com/adamlimh/azurechat/blob/main/images/prompt_cheat.png?raw=true)
 
 This cheat sheet lists out prompts and tips from all over the world on how to use ChatGPT effectively
 
