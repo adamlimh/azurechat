@@ -102,11 +102,11 @@ Hello, do you have any actual tips or tricks for ChatGPT please?
 
 - Can you explain the meaning of the formula =SUM(A1:A10) in simple terms?
 
-- ### Help create a complex macro
+### Help create a complex macro
 
 - I need to create a macro that calculates the average of cells B1 to B10 and inserts the result in cell C1. Can you help me with that?
 
-- ### Provide tips for improving spreadsheet efficiency
+### Provide tips for improving spreadsheet efficiency
 
 - Can you give me some tips on how to improve the efficiency of my spreadsheet?
 
