@@ -2,7 +2,7 @@
 
 This cheat sheet lists out prompts and tips from all over the world on how to use ChatGPT effectively
 
-[💡 I Got an IDEA](http://itnews.ura.org.hk/?page_id=502)
+[💡 Share your IDEA](http://itnews.ura.org.hk/?page_id=502)
 
 ## 💬 General
 
