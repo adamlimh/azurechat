@@ -8,7 +8,7 @@ This cheat sheet lists out prompts and tips from all over the world on how to us
 
 ## Getting Started
 
-1. [Reading](/reading/update.md)
+1. [Reading](/reading/update)
 1. Writing
 1. General
 1. Email
