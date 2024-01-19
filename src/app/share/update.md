@@ -210,6 +210,42 @@ I need to create a macro that calculates the average of cells B1 to B10 and inse
 ```ruby
 Can you give me some tips on how to improve the efficiency of my spreadsheet?
 ```
+### General
+- **Name your business or idea**
+    ``` {.wrap}
+    Can you suggest a creative name for my tech startup?
+    ```
+    ``` {.wrap}
+    Help me come up with a catchy name for my bakery business.
+    ```
+- **Create an outline for a course or training program**
+    ``` {.wrap}
+    Please create an outline for a course on web development for beginners.
+    ```
+    ``` {.wrap}
+    Can you make a training program outline for a customer service workshop?
+    ```
+- **Ask you interview questions for a specific job**
+    ``` {.wrap}
+    I'm interviewing for a software engineer position, can you give me some interview questions?
+    ```
+    ``` {.wrap}
+    Please provide me with some common interview questions for a marketing manager role.
+    ```
+- **Give you gift ideas for business partners, customers, or clients**
+    ``` {.wrap}
+    I need gift ideas for my clients, can you help?
+    ```
+    ``` {.wrap}
+    What are some unique gifts I can give to my business partners?
+    ```
+- **Choose a random contest winner(s) from a long list of names or emails**
+    ``` {.wrap}
+    I want to choose a winner from a list of 100 names, can you help?
+    ```
+    ``` {.wrap}
+    Can you randomly pick 5 email addresses from a list of 1000 for a giveaway contest?
+    ```
 {.collapsible}
 
 <style>
