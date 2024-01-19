@@ -11,7 +11,7 @@ This cheat sheet lists out prompts and tips from all over the world on how to us
 
 <details>
 <summary>
-<h1>Writing</h1>
+Writing
 </summary>
   
 ## 🖊️ Writings
@@ -184,10 +184,6 @@ Please filter this list based on certain criteria: [your list]
 ```
 </details>
 
-<details>
-<summary>
-Spreadsheets
-</summary>
   
 ## 🔢 Spreadsheets
 
@@ -214,4 +210,10 @@ I need to create a macro that calculates the average of cells B1 to B10 and inse
 ```ruby
 Can you give me some tips on how to improve the efficiency of my spreadsheet?
 ```
- </details> 
+{.collapsible}
+
+<style>
+em { font-size: 0.785em; }
+strong {font-weight: 400;}
+ul.collapsible > li > pre { padding-left: 0; padding-right: 0; font-size: 0.925em;}
+</style>
