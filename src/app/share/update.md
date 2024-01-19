@@ -6,15 +6,12 @@ This cheat sheet lists out prompts and tips from all over the world on how to us
 
 [💡 Share your IDEA](https://forms.office.com/Pages/ResponsePage.aspx?id=DOufVIhxb0asOEHu3CYS8IWqR-xzdUtApUOXWQvo7GVUNEMzVVRSV1NHVlFXTlUzWEo3QVdTME84RS4u)
 
-
-# Getting Started
-
-1. [Reading]
-1. [Writing]
-1. [General]
-1. [Email]
-1. [Analyzing Data]
-1. [Spreadsheets]
+1. Reading
+1. Writing
+1. General
+1. Email
+1. Analyzing Data
+1. Spreadsheets
    
 ## 📕 Reading
 
