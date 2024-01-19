@@ -30,7 +30,7 @@ const loadContent = async () => {
         cache: "no-cache",
       }
     );
-    return await response;
+    return await response.text();
   } else {
     return await fs.readFile(
       process.cwd() + "/app/share/update.md",
