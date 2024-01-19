@@ -11,10 +11,10 @@ This cheat sheet lists out prompts and tips from all over the world on how to us
 
 <details>
 <summary>
-Writing
+<h1>Writing</h1>
 </summary>
   
-## 🖊️ Writing
+## 🖊️ Writings
 
 ### Create titles for any of your creative writing projects
 
