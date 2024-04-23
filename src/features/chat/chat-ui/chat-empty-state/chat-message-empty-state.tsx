@@ -17,7 +17,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
     <div className="grid grid-cols-5 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-9">
       <div className="col-span-2 gap-5 flex flex-col flex-1">
         <img src="/ai-icon.png" className="w-36" />
-        <p className=""><b>
+        <p className=""><b style="color:red;">
           !!What's news: We've upgraded to GPT-4 Turbo, now with 128k tokens
           —10x our previous capacity, equal to 300 pages!!
         </b></p>
