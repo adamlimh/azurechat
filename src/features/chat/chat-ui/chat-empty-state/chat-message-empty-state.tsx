@@ -18,8 +18,8 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
       <div className="col-span-2 gap-5 flex flex-col flex-1">
         <img src="/ai-icon.png" className="w-36" />
         <p className="">
-          Start by just typing your message in the box below. You can also
-          personalise the chat by making changes to the settings on the right.
+          What's news: We've upgraded to GPT-4 Turbo, now with 128k tokens
+          —10x our previous capacity, equal to 300 pages!
         </p>
       </div>
       <Card className="col-span-3 flex flex-col gap-5 p-5 ">
