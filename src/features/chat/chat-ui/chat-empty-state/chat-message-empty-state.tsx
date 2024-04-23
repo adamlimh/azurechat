@@ -17,10 +17,10 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
     <div className="grid grid-cols-5 w-full items-center container mx-auto max-w-3xl justify-center h-full gap-9">
       <div className="col-span-2 gap-5 flex flex-col flex-1">
         <img src="/ai-icon.png" className="w-36" />
-        <p className="">
-          !!What's news: **We've upgraded to GPT-4 Turbo, now with 128k tokens
-          —10x our previous capacity, equal to 300 pages!!**
-        </p>
+        <p className="" style="color:red;"><b>
+          !!What's news: We've upgraded to GPT-4 Turbo, now with 128k tokens
+          —10x our previous capacity, equal to 300 pages!!
+        </b></p>
       </div>
       <Card className="col-span-3 flex flex-col gap-5 p-5 ">
         <Typography variant="h4" className="text-primary">
