@@ -1,3 +1,5 @@
+"use client";
+
 import { AddExtension } from "@/features/extensions-page/add-extension/add-new-extension";
 import { ExtensionCard } from "@/features/extensions-page/extension-card/extension-card";
 import { ExtensionModel } from "@/features/extensions-page/extension-services/models";
@@ -7,7 +9,12 @@ import { AI_DESCRIPTION, AI_NAME } from "@/features/theme/theme-config";
 import { Hero } from "@/features/ui/hero";
 import { ScrollArea } from "@/features/ui/scroll-area";
 import Image from "next/image";
-import { FC } from "react";
+import { FC, useState } from "react";
+import { LoadingIndicator } from "@/features/ui/loading";
+import { MessageCircle } from "lucide-react";
+import { Button } from "../ui/button";
+import { CreateChatThread  } from "../chat-page/chat-services/chat-thread-service";
+import { RedirectToChatThread } from "@/features/common/navigation-helpers";
 
 interface ChatPersonaProps {
   personas: PersonaModel[];
@@ -15,6 +22,7 @@ interface ChatPersonaProps {
 }
 
 export const ChatHome: FC<ChatPersonaProps> = (props) => {
+  const [isLoading, setIsLoading] = useState(false);
   return (
     <ScrollArea className="flex-1">
       <main className="flex flex-1 flex-col gap-6 pb-6">
@@ -31,7 +39,25 @@ export const ChatHome: FC<ChatPersonaProps> = (props) => {
               {AI_NAME}
             </>
           }
-          description={AI_DESCRIPTION}
+          description={
+            <>
+              <p>{AI_DESCRIPTION}</p>
+              <Button className="mt-4 flex gap-3"
+              onClick={async () => {
+                setIsLoading(true);
+                const response  = await CreateChatThread();
+                if (response.status === "OK") {
+                  RedirectToChatThread(response.response.id);
+                }
+              }}
+            >
+                {isLoading ? (
+                <LoadingIndicator isLoading={isLoading} />
+              ) : (<MessageCircle size={18} />)}
+                Start chat
+              </Button>
+            </>
+          }
         ></Hero>
         <div className="container max-w-4xl flex gap-20 flex-col">
           <div>
