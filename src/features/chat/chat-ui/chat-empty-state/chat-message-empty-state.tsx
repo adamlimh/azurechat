@@ -20,6 +20,7 @@ export const ChatMessageEmptyState: FC<Prop> = (props) => {
         <p className="text-red-500 font-bold">
           This website will be retired in the near future. You can access the new version of the ChatGPT Assistant by clicking on the following link: 
           <a href="https://uraazurechat-webapp-4kb3ps4pdql6k.azurewebsites.net" className="text-blue-500 underline">
+             <br />
             https://uraazurechat-webapp-4kb3ps4pdql6k.azurewebsites.net
           </a>
         </p>
