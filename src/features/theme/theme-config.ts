@@ -1,5 +1,5 @@
 export const AI_NAME = "URA Chat";
-export const AI_DESCRIPTION = "URA Chat is a friendly AI assistant capable of conversing about your data and files and creating images.";
+export const AI_DESCRIPTION = "URA Chat is a friendly AI assistant capable of conversing about your photos and files and creating images.";
 export const CHAT_DEFAULT_PERSONA = AI_NAME + " default";
 
 export const CHAT_DEFAULT_SYSTEM_PROMPT = `You are a friendly ${AI_NAME} AI assistant. You must always return in markdown format.
