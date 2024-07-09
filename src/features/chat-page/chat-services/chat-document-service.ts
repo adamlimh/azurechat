@@ -14,8 +14,8 @@ import { CHAT_DOCUMENT_ATTRIBUTE, ChatDocumentModel } from "./models";
 
 const MAX_UPLOAD_DOCUMENT_SIZE: number = 20000000;
 const CHUNK_SIZE = 8000;
-// 20% overlap
-const CHUNK_OVERLAP = CHUNK_SIZE * 0.2;
+// 15% overlap
+const CHUNK_OVERLAP = CHUNK_SIZE * 0.15;
 
 export const CrackDocument = async (
   formData: FormData
