@@ -16,6 +16,7 @@ import {
   ChatThreadModel,
 } from "./chat-services/models";
 import MessageContent from "./message-content";
+import { DeleteChatMessageById } from "./chat-services/chat-thread-service";
 
 interface ChatPageProps {
   messages: Array<ChatMessageModel>;
@@ -41,6 +42,15 @@ export const ChatPage: FC<ChatPageProps> = (props) => {
 
   useChatScrollAnchor({ ref: current });
 
+  const handleDeleteMessage = async (messageId: string) => {
+    const response = await DeleteChatMessageById(messageId);
+    if (response.status === "OK") {
+      chatStore.removeMessage(messageId); // Update the chat store to remove the message
+    } else {
+      console.error("Failed to delete message:", response.errors);
+    }
+  };
+
   return (
     <main className="flex flex-1 relative flex-col">
       <ChatHeader
@@ -59,6 +69,7 @@ export const ChatPage: FC<ChatPageProps> = (props) => {
                 onCopy={() => {
                   navigator.clipboard.writeText(message.content);
                 }}
+                onDelete={() => handleDeleteMessage(message.id)}
                 profilePicture={
                   message.role === "assistant"
                     ? "/ai-icon.png"

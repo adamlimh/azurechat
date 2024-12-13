@@ -340,3 +340,49 @@ export const CreateChatAndRedirect = async () => {
     RedirectToChatThread(response.response.id);
   }
 };
+
+export const DeleteChatMessageById = async (
+  messageId: string
+): Promise<ServerActionResponse<ChatMessageModel>> => {
+  try {
+    const querySpec: SqlQuerySpec = {
+      query: "SELECT * FROM root r WHERE r.id=@id AND r.isDeleted=@isDeleted",
+      parameters: [
+        {
+          name: "@id",
+          value: messageId,
+        },
+        {
+          name: "@isDeleted",
+          value: false,
+        },
+      ],
+    };
+
+    const { resources } = await HistoryContainer()
+      .items.query<ChatMessageModel>(querySpec)
+      .fetchAll();
+
+    if (resources.length === 0) {
+      return {
+        status: "NOT_FOUND",
+        errors: [{ message: `Chat message not found` }],
+      };
+    }
+
+    const messageToDelete = resources[0];
+    messageToDelete.isDeleted = true;
+
+    await HistoryContainer().items.upsert(messageToDelete);
+
+    return {
+      status: "OK",
+      response: messageToDelete,
+    };
+  } catch (error) {
+    return {
+      status: "ERROR",
+      errors: [{ message: `${error}` }],
+    };
+  }
+};

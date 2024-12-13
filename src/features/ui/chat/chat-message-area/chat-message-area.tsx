@@ -24,6 +24,10 @@ export const ChatMessageArea = (props: {
     setIsIconChecked(true);
   };
 
+  const handleDeleteClick = () => {
+    props.onDelete(); // Call the onDelete prop
+  };
+
   useEffect(() => {
     const timeout = setTimeout(() => {
       setIsIconChecked(false);
@@ -98,6 +102,13 @@ export const ChatMessageArea = (props: {
                 <ClipboardIcon size={16} />
               )}
             </Button>
+            <Button
+              variant={"ghost"}
+              size={"sm"}
+              title="Delete message"
+              className="justify-right flex"
+              onClick={handleDeleteClick} // Added delete button
+            >
           </div>
         </div>
       </div>
